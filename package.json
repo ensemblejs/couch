@@ -1,0 +1,27 @@
+{
+  "name": "ensemblejs-couch-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap our couch instance with required databases and views",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ensemblejs/couch.git"
+  },
+  "keywords": [
+    "ensemblejs",
+    "couch",
+    "couchdb",
+    "ensemble",
+    "bootstrap",
+    "ohai"
+  ],
+  "author": "Ryan Boucher",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ensemblejs/couch/issues"
+  },
+  "homepage": "https://github.com/ensemblejs/couch#readme"
+}
